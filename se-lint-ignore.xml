@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<se-lint-ignore>
+	<file path="chapter-23.xhtml">
+		<ignore code="t-003">
+			<line>63</line>
+			<reason>Subsequent paragraph is part of same speech, so it is correct to leave off terminating quotation mark.</reason>
+		</ignore>
+		<ignore code="t-003">
+			<line>146</line>
+			<reason>Subsequent paragraph is part of same speech, so it is correct to leave off terminating quotation mark.</reason>
+		</ignore>
+	</file>
+	<file path="chapter-25.xhtml">
+		<ignore code="t-019">
+			<reason>The word “chaperone” is not a complete clause in this sentence.</reason>
+		</ignore>
+	</file>
+</se-lint-ignore>
