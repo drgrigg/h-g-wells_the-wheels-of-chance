@@ -69,7 +69,7 @@
 		<dc:contributor id="artist">Frederik Hendrik Kaemmerer</dc:contributor>
 		<meta property="file-as" refines="#artist">Kaemmerer, Frederik Hendrik</meta>
 		<link href="https://en.wikipedia.org/wiki/Frederik_Hendrik_Kaemmerer" refines="#artist" rel="schema:sameAs"/>
-		<link href="http://id.loc.gov/authorities/names/n2009043160" refines="#artist" rel="schema:sameAs"/>
+		<link href="https://id.loc.gov/authorities/names/n2009043160.html" refines="#artist" rel="schema:sameAs"/>
 		<meta property="role" refines="#artist" scheme="marc:relators">art</meta>
 		<dc:contributor id="transcriber-1">Dianne Bean</dc:contributor>
 		<meta property="file-as" refines="#transcriber-1">Bean, Dianne</meta>
