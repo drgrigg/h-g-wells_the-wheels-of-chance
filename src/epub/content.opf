@@ -37,20 +37,20 @@
 <dc:title id="fulltitle">The Wheels of Chance: A Bicycling Idyll</dc:title>
 <meta property="file-as" refines="#fulltitle">Wheels of Chance: A Bicycling Idyll, The</meta>
 <meta property="title-type" refines="#fulltitle">extended</meta>
-		<dc:subject id="subject-1">England -- Social conditions -- 19th century -- Fiction</dc:subject>
+		<dc:subject id="subject-1">England -- Social conditions -- 19th century</dc:subject>
 		<meta property="authority" refines="#subject-1">LCSH</meta>
-		<meta property="term" refines="#subject-1">Unknown</meta>
-		<dc:subject id="subject-2">Cycling -- Fiction</dc:subject>
+		<meta property="term" refines="#subject-1">http://id.loc.gov/authorities/subjects/sh85043316</meta>
+		<dc:subject id="subject-2">Cycling in Literature</dc:subject>
 		<meta property="authority" refines="#subject-2">LCSH</meta>
-		<meta property="term" refines="#subject-2">Unknown</meta>
-		<meta property="schema:genre">TAG</meta>
-		<dc:description id="description">DESCRIPTION</dc:description>
+		<meta property="term" refines="#subject-2">http://id.loc.gov/authorities/subjects/sh2002007612</meta>
+		<meta property="schema:genre">Fiction</meta>
+		<dc:description id="description">A humble draper’s assistant undertakes a bicycling journey which leads to love and adventure.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
 			LONG_DESCRIPTION
 		</meta>
 		<dc:language>en-GB</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/1264</dc:source>
-		<dc:source>PAGE_SCANS_URL</dc:source>
+		<dc:source>https://archive.org/details/wheelsofchancebi00welluoft</dc:source>
 		<meta property="schema:wordCount">WORD_COUNT</meta>
 		<meta property="schema:educationalLevel">READING_EASE</meta>
 		<link href="https://en.wikipedia.org/wiki/The_Wheels_of_Chance" rel="schema:sameAs"/>
@@ -59,30 +59,25 @@
 		<link href="https://github.com/standardebooks/h-g-wells_the-wheels-of-chance" refines="#vcs-repository" rel="schema:codeRepository"/>
 		<dc:creator id="author">H. G. Wells</dc:creator>
 		<meta property="file-as" refines="#author">Wells, H. G.</meta>
-		<meta property="schema:alternateName" refines="#author">CONTRIBUTOR_FULL_NAME</meta>
+		<meta property="schema:alternateName" refines="#author">Herbert George Wells</meta>
 		<link href="https://en.wikipedia.org/wiki/H._G._Wells" refines="#author" rel="schema:sameAs"/>
 		<link href="https://id.loc.gov/authorities/names/n79063613.html" refines="#author" rel="schema:sameAs"/>
 		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
-		<dc:contributor id="artist">COVER_ARTIST_NAME</dc:contributor>
-		<meta property="file-as" refines="#artist">COVER_ARTIST_SORT</meta>
+		<meta property="role" refines="#author" scheme="marc:relators">ill</meta>
+		<dc:contributor id="artist">
+Frederik Hendrik Kaemmerer</dc:contributor>
+		<meta property="file-as" refines="#artist">Kaemmerer, 
+Frederik Hendrik</meta>
 		<link href="COVER_ARTIST_WIKI_URL" refines="#artist" rel="schema:sameAs"/>
 		<link href="COVER_ARTIST_NACOAF_URI" refines="#artist" rel="schema:sameAs"/>
 		<meta property="role" refines="#artist" scheme="marc:relators">art</meta>
-		<dc:contributor id="transcriber-1">TRANSCRIBER_1_NAME</dc:contributor>
-		<meta property="file-as" refines="#transcriber-1">TRANSCRIBER_1_SORT</meta>
+		<dc:contributor id="transcriber-1">Dianne Bean</dc:contributor>
+		<meta property="file-as" refines="#transcriber-1">Bean, Dianne</meta>
 		<link href="TRANSCRIBER_1_URL" refines="#transcriber-1" rel="schema:url"/>
 		<meta property="role" refines="#transcriber-1" scheme="marc:relators">trc</meta>
-		<dc:contributor id="transcriber-2">TRANSCRIBER_2_NAME</dc:contributor>
-		<meta property="file-as" refines="#transcriber-2">TRANSCRIBER_2_SORT</meta>
-		<link href="TRANSCRIBER_2_URL" refines="#transcriber-2" rel="schema:url"/>
-		<meta property="role" refines="#transcriber-2" scheme="marc:relators">trc</meta>
-		<dc:contributor id="transcriber-3">Distributed Proofreaders</dc:contributor>
-		<meta property="file-as" refines="#transcriber-3">Distributed Proofreaders</meta>
-		<link href="https://www.pgdp.net/" refines="#transcriber-3" rel="schema:url"/>
-		<meta property="role" refines="#transcriber-3" scheme="marc:relators">trc</meta>
-		<dc:contributor id="producer-1">PRODUCER_NAME</dc:contributor>
-		<meta property="file-as" refines="#producer-1">PRODUCER_SORT</meta>
-		<link href="PRODUCER_URL" refines="#producer-1" rel="schema:url"/>
+		<dc:contributor id="producer-1">David Grigg</dc:contributor>
+		<meta property="file-as" refines="#producer-1">Grigg, David</meta>
+		<link href="PRODUCER_URL" refines="#producer-1" rel="schema:url">https://thegriggs.org/david/</link>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">bkp</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">blw</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">cov</meta>
