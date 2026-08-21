@@ -19,6 +19,7 @@
 		<meta id="conformance-statement" property="dcterms:conformsTo">EPUB Accessibility 1.1 - WCAG 2.2 Level AA</meta>
 		<meta property="a11y:certifiedBy" refines="#conformance-statement">Standard Ebooks</meta>
 		<meta property="schema:accessMode">textual</meta>
+		<meta property="schema:accessMode">visual</meta>
 		<meta property="schema:accessModeSufficient">textual</meta>
 		<meta property="schema:accessibilityFeature">alternativeText</meta>
 		<meta property="schema:accessibilityFeature">displayTransformability</meta>
@@ -28,26 +29,26 @@
 		<meta property="schema:accessibilityFeature">unlocked</meta>
 		<meta property="schema:accessibilityHazard">none</meta>
 		<meta property="schema:accessibilitySummary">This publication conforms to WCAG 2.2 Level AA.</meta>
-<dc:title id="title">The Wheels of Chance</dc:title>
-<meta property="file-as" refines="#title">Wheels of Chance, The</meta>
-<meta property="title-type" refines="#title">main</meta>
-<dc:title id="subtitle">A Bicycling Idyll</dc:title>
-<meta property="file-as" refines="#subtitle">Bicycling Idyll, A</meta>
-<meta property="title-type" refines="#subtitle">subtitle</meta>
-<dc:title id="fulltitle">The Wheels of Chance: A Bicycling Idyll</dc:title>
-<meta property="file-as" refines="#fulltitle">Wheels of Chance: A Bicycling Idyll, The</meta>
-<meta property="title-type" refines="#fulltitle">extended</meta>
+		<dc:title id="title">The Wheels of Chance</dc:title>
+		<meta property="file-as" refines="#title">Wheels of Chance, The</meta>
+		<meta property="title-type" refines="#title">main</meta>
+		<dc:title id="subtitle">A Bicycling Idyll</dc:title>
+		<meta property="file-as" refines="#subtitle">Bicycling Idyll, A</meta>
+		<meta property="title-type" refines="#subtitle">subtitle</meta>
+		<dc:title id="fulltitle">The Wheels of Chance: A Bicycling Idyll</dc:title>
+		<meta property="file-as" refines="#fulltitle">Wheels of Chance: A Bicycling Idyll, The</meta>
+		<meta property="title-type" refines="#fulltitle">expanded</meta>
 		<dc:subject id="subject-1">England -- Social conditions -- 19th century</dc:subject>
 		<meta property="authority" refines="#subject-1">LCSH</meta>
-		<meta property="term" refines="#subject-1">http://id.loc.gov/authorities/subjects/sh85043316</meta>
+		<meta property="term" refines="#subject-1">sh85043316</meta>
 		<dc:subject id="subject-2">Cycling in Literature</dc:subject>
 		<meta property="authority" refines="#subject-2">LCSH</meta>
-		<meta property="term" refines="#subject-2">http://id.loc.gov/authorities/subjects/sh2002007612</meta>
+		<meta property="term" refines="#subject-2">sh2002007612</meta>
 		<meta property="schema:genre">Fiction</meta>
-		<dc:description id="description">A humble draper’s assistant undertakes a bicycling journey which leads to love and adventure.</dc:description>
-		<meta id="long-description" property="se:long-description" refines="#description">
-			LONG_DESCRIPTION
-		</meta>
+		<meta property="schema:abstract">A humble draper’s assistant undertakes a bicycling journey which leads to love and adventure.</meta>
+		<dc:description>
+			&lt;p&gt;&lt;i&gt;The Wheels of Chance&lt;/i&gt; is one of &lt;a href="https://standardebooks.org/ebooks/h-g-wells"&gt;H. G. Wells’&lt;/a&gt; comic novels, published in 1896. It satirises the then-current craze for cycling in Britain, soon after the machines became easily available at a relatively low cost, and before the widespread use of the automobile.&lt;/p&gt; &lt;p&gt;The novel features the experiences of a humble draper’s assistant, Mr. Hoopdriver, who buys a second-hand bicycle and uses it to set off on a touring holiday. Part-way through his trip he encounters, and is attracted to, a young woman dressed in cycling gear (with bloomers or pants rather than a skirt). When it appears that the young lady is in strife, Hoopdriver comes to the rescue, and a series of amusing incidents ensue. As part of its comedy, the book makes some sharp observations about the British class structure of the time.&lt;/p&gt; &lt;p&gt;Published only shortly after Wells’ first venture into science fiction with his novella &lt;i&gt;&lt;a href="https://standardebooks.org/ebooks/h-g-wells/the-time-machine"&gt;The Time Machine&lt;/a&gt;&lt;/i&gt;. Because they were both short works, some early editions paired the two books into one volume.&lt;/p&gt;
+		</dc:description>
 		<dc:language>en-GB</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/1264</dc:source>
 		<dc:source>https://archive.org/details/wheelsofchancebi00welluoft</dc:source>
@@ -63,11 +64,10 @@
 		<link href="https://en.wikipedia.org/wiki/H._G._Wells" refines="#author" rel="schema:sameAs"/>
 		<link href="https://id.loc.gov/authorities/names/n79063613.html" refines="#author" rel="schema:sameAs"/>
 		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
+		<meta property="role" refines="#author" scheme="marc:relators">dto</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">ill</meta>
-		<dc:contributor id="artist">
-Frederik Hendrik Kaemmerer</dc:contributor>
-		<meta property="file-as" refines="#artist">Kaemmerer, 
-Frederik Hendrik</meta>
+		<dc:contributor id="artist">Frederik Hendrik Kaemmerer</dc:contributor>
+		<meta property="file-as" refines="#artist">Kaemmerer, Frederik Hendrik</meta>
 		<link href="COVER_ARTIST_WIKI_URL" refines="#artist" rel="schema:sameAs"/>
 		<link href="COVER_ARTIST_NACOAF_URI" refines="#artist" rel="schema:sameAs"/>
 		<meta property="role" refines="#artist" scheme="marc:relators">art</meta>
@@ -78,12 +78,14 @@ Frederik Hendrik</meta>
 		<dc:contributor id="producer-1">David Grigg</dc:contributor>
 		<meta property="file-as" refines="#producer-1">Grigg, David</meta>
 		<link href="PRODUCER_URL" refines="#producer-1" rel="schema:url">https://thegriggs.org/david/</link>
+		<meta property="role" refines="#producer-1" scheme="marc:relators">ann</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">bkp</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">blw</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">cov</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">mrk</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">pfr</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">tyg</meta>
+		<meta property="role" refines="#producer-1" scheme="marc:relators">wat</meta>
 	</metadata>
 	<manifest>
 		<item href="css/core.css" id="core.css" media-type="text/css"/>
@@ -121,6 +123,7 @@ Frederik Hendrik</meta>
 		<item href="text/chapter-26.xhtml" id="chapter-26.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/colophon.xhtml" id="colophon.xhtml" media-type="application/xhtml+xml" properties="svg"/>
 		<item href="text/dedication.xhtml" id="dedication.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/endnotes.xhtml" id="endnotes.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/halftitlepage.xhtml" id="halftitlepage.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/imprint.xhtml" id="imprint.xhtml" media-type="application/xhtml+xml" properties="svg"/>
 		<item href="text/loi.xhtml" id="loi.xhtml" media-type="application/xhtml+xml"/>
@@ -159,6 +162,7 @@ Frederik Hendrik</meta>
 		<itemref idref="chapter-24.xhtml"/>
 		<itemref idref="chapter-25.xhtml"/>
 		<itemref idref="chapter-26.xhtml"/>
+		<itemref idref="endnotes.xhtml"/>
 		<itemref idref="loi.xhtml"/>
 		<itemref idref="colophon.xhtml"/>
 		<itemref idref="uncopyright.xhtml"/>
