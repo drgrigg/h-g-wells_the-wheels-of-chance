@@ -1,0 +1,1 @@
+This book has an unusual structure, with titled but un-numbered chapters, each of which contains one or more parts, identified by Roman numerals. The ordinal values of these parts increment throughout the book, and across chapter boundaries. I have therefore given each of the parts its own sub-chapter section, even when there is only one such part in a chapter.
